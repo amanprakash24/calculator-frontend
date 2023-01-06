@@ -57,7 +57,7 @@ const Calculator = () => {
     let res = await getresult(num1, num2, operator);
     setResult(res.data);
 
-    await axios.get("http://localhost:3030/history").then(
+    await axios.get("https://calculatorapi.onrender.com/history").then(
       (res) => {
         sethistory(res.data);
         console.log(res.data);

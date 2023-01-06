@@ -5,17 +5,17 @@ const getresult=(num1,num2,operator)=>{
     num2=Number(num2)
 
     switch(operator){
-        case "+": return (axios.post("http://localhost:3030/add",{
+        case "+": return (axios.post("https://calculatorapi.onrender.com/add",{
             num1,num2,operator
         }))
         
-        case "-": return (axios.post("http://localhost:3030/subtract",{
+        case "-": return (axios.post("https://calculatorapi.onrender.com/subtract",{
             num1,num2,operator
         }))
-        case "/": return (axios.post("http://localhost:3030/multiply",{
+        case "/": return (axios.post("https://calculatorapi.onrender.com/multiply",{
             num1,num2,operator
         }))
-        case "*": return (axios.post("http://localhost:3030/divide",{
+        case "*": return (axios.post("https://calculatorapi.onrender.com/divide",{
             num1,num2,operator
         }))
        
