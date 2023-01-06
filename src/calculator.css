@@ -45,7 +45,7 @@
     border-style: solid;
 }
  
-.calc-button-row button.clearOne {
+.calc-button-row button.ClearOne {
     color: #ff7665;
 }
 .calc-button-row button.clearAll {
@@ -67,5 +67,11 @@
 }
 .calc-button-row button:hover {
     background: #3e4b5c;
+}
+
+.calc-body h3,li{
+    color: #fff;
+    text-align: left;
+    margin: 10px;
 }
 
